@@ -1,5 +1,5 @@
 # 🛡️ HUQI ANTI-BOT & CLOUDFLARE TURNSTILE STEALTH SYSTEM
-**Hệ thống vượt rào cản tự động hóa dành riêng cho Hệ sinh thái Huqi (Huqi Ecosystem)**
+**Hệ thống tự động hóa tàng hình đa nền tảng (macOS & Windows 10/11)**
 
 ---
 
@@ -11,18 +11,19 @@ Tài liệu và mã nguồn chuẩn giải quyết triệt để vấn đề:
 
 ---
 
-## 🚀 Hướng dẫn kích hoạt nhanh
+## 🚀 Kích hoạt 1-Click (Hỗ trợ 100% cả macOS và Windows)
 
-### 1. Khởi động môi trường ảo
-```bash
-source .venv/bin/activate
-```
+### 🍎 Dành cho macOS (MacBook, Mac Mini / Chip Apple Silicon M1-M4 & Intel):
+Click đúp trực tiếp vào file:
+👉 **`run_turnstile.command`**  
+*(Script sẽ tự động khởi tạo môi trường ảo `.venv`, tự cài `seleniumbase` nếu chưa có và bật Chrome lên chạy)*
 
-### 2. Chạy thử nghiệm giải Turnstile mẫu
-```bash
-python3 test_2captcha_turnstile.py
-# Hoặc click đúp file: run_turnstile.command
-```
+---
+
+### 🪟 Dành cho Windows (Windows 10 & 11):
+Click đúp trực tiếp vào file:
+👉 **`run_turnstile.bat`**  
+*(Tự động phát hiện môi trường, cài đặt dependency và chạy Chrome tàng hình)*
 
 ---
 
@@ -52,4 +53,3 @@ def scrape_wallet_portal(portal_url):
 
 ---
 *Tài sản thuộc quyền sở hữu của Hệ sinh thái Huqi — Bảo mật nội bộ.*
-
